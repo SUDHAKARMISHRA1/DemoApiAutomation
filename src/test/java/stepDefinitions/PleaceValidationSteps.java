@@ -40,6 +40,7 @@ public class PleaceValidationSteps extends Utils {
 			response=res.when().post(resourceAPI.getResource());
 		else if(method.equalsIgnoreCase("GET"))
 			response=res.when().get(resourceAPI.getResource());
+System.out.println("hello");
 
 	}
 	@Then("The API call got success with status code {int}")

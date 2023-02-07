@@ -16,6 +16,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class Utils {
 
+
 	public static RequestSpecification req;
 
 	public RequestSpecification requestSpecification() throws IOException {
